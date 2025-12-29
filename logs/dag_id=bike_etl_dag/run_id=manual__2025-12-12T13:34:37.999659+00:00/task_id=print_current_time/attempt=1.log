@@ -1,0 +1,21 @@
+[2025-12-12T08:34:39.546-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-12T08:34:39.551-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bike_etl_dag.print_current_time manual__2025-12-12T13:34:37.999659+00:00 [queued]>
+[2025-12-12T08:34:39.552-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bike_etl_dag.print_current_time manual__2025-12-12T13:34:37.999659+00:00 [queued]>
+[2025-12-12T08:34:39.552-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-12-12T08:34:39.555-0500] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): print_current_time> on 2025-12-12 13:34:37.999659+00:00
+[2025-12-12T08:34:39.558-0500] {standard_task_runner.py:63} INFO - Started process 65084 to run task
+[2025-12-12T08:34:39.560-0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'bike_etl_dag', 'print_current_time', 'manual__2025-12-12T13:34:37.999659+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/bike_etl_dag.py', '--cfg-path', '/var/folders/x8/gzvp79n54f19ddgbkqmljtcc0000gn/T/tmpfoyyi65x']
+[2025-12-12T08:34:39.561-0500] {standard_task_runner.py:91} INFO - Job 4: Subtask print_current_time
+[2025-12-12T08:34:39.577-0500] {task_command.py:426} INFO - Running <TaskInstance: bike_etl_dag.print_current_time manual__2025-12-12T13:34:37.999659+00:00 [running]> on host evans-macbook-pro.local
+[2025-12-12T08:34:39.593-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bike_etl_dag' AIRFLOW_CTX_TASK_ID='print_current_time' AIRFLOW_CTX_EXECUTION_DATE='2025-12-12T13:34:37.999659+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-12T13:34:37.999659+00:00'
+[2025-12-12T08:34:39.594-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-12T08:34:39.595-0500] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/x8/gzvp79n54f19ddgbkqmljtcc0000gn/T
+[2025-12-12T08:34:39.595-0500] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "Hello Evan"']
+[2025-12-12T08:34:39.598-0500] {subprocess.py:86} INFO - Output:
+[2025-12-12T08:34:39.601-0500] {subprocess.py:93} INFO - Hello Evan
+[2025-12-12T08:34:39.601-0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-12-12T08:34:39.601-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-12T08:34:39.606-0500] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=bike_etl_dag, task_id=print_current_time, run_id=manual__2025-12-12T13:34:37.999659+00:00, execution_date=20251212T133437, start_date=20251212T133439, end_date=20251212T133439
+[2025-12-12T08:34:39.622-0500] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-12-12T08:34:39.627-0500] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-12-12T08:34:39.628-0500] {local_task_job_runner.py:222} INFO - ::endgroup::

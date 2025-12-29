@@ -1,0 +1,905 @@
+[2025-12-12T07:25:00.315-0500] {processor.py:161} INFO - Started process (PID=56812) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:25:00.315-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:25:00.315-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:25:00.315-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:25:00.317-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:25:00.316-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:25:00.317-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:25:00.341-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:26:15.084-0500] {processor.py:161} INFO - Started process (PID=56899) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:26:15.086-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:26:15.086-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:26:15.086-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:26:15.087-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:26:15.087-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:26:15.087-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:26:15.111-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:26:58.404-0500] {processor.py:161} INFO - Started process (PID=56933) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:26:58.404-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:26:58.404-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:26:58.404-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:26:58.406-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:26:58.405-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:26:58.406-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:26:58.432-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.030 seconds
+[2025-12-12T07:27:40.591-0500] {processor.py:161} INFO - Started process (PID=57534) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:27:40.592-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:27:40.592-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:27:40.592-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:27:40.594-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:27:40.593-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:27:40.594-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:27:40.618-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:28:23.450-0500] {processor.py:161} INFO - Started process (PID=57738) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:28:23.451-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:28:23.451-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:28:23.451-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:28:23.453-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:28:23.452-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:28:23.453-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:28:23.477-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:29:06.604-0500] {processor.py:161} INFO - Started process (PID=57895) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:29:06.604-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:29:06.604-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:29:06.604-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:29:06.606-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:29:06.605-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:29:06.606-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:29:06.630-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:29:48.857-0500] {processor.py:161} INFO - Started process (PID=57960) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:29:48.858-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:29:48.859-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:29:48.858-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:29:48.860-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:29:48.859-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:29:48.860-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:29:48.884-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:30:31.178-0500] {processor.py:161} INFO - Started process (PID=58029) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:30:31.179-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:30:31.179-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:30:31.179-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:30:31.181-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:30:31.180-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:30:31.181-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:30:31.206-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:31:12.960-0500] {processor.py:161} INFO - Started process (PID=58114) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:31:12.961-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:31:12.962-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:31:12.961-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:31:12.963-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:31:12.962-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:31:12.963-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:31:12.989-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.029 seconds
+[2025-12-12T07:31:57.538-0500] {processor.py:161} INFO - Started process (PID=58362) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:31:57.540-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:31:57.540-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:31:57.540-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:31:57.541-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:31:57.541-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:31:57.541-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:31:57.567-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.030 seconds
+[2025-12-12T07:32:40.991-0500] {processor.py:161} INFO - Started process (PID=58414) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:32:40.993-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:32:40.993-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:32:40.993-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:32:40.995-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:32:40.994-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:32:40.995-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:32:41.019-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.029 seconds
+[2025-12-12T07:33:24.353-0500] {processor.py:161} INFO - Started process (PID=58450) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:33:24.354-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:33:24.354-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:33:24.354-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:33:24.356-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:33:24.355-0500] {dagbag.py:355} ERROR - Failed to import: /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/evankrupa/airflow_project/dags/bike_etl_dag.py", line 5, in <module>
+    with DAG(
+         ^^^^
+TypeError: DAG.__init__() got an unexpected keyword argument 'schedule_intervals'
+[2025-12-12T07:33:24.356-0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:33:24.381-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.028 seconds
+[2025-12-12T07:34:07.278-0500] {processor.py:161} INFO - Started process (PID=58493) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:34:07.279-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:34:07.279-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:07.279-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:34:07.282-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:34:07.348-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:07.348-0500] {override.py:1829} INFO - Created Permission View: can delete on DAG:bike_etl_dag
+[2025-12-12T07:34:07.351-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:07.350-0500] {override.py:1829} INFO - Created Permission View: can read on DAG:bike_etl_dag
+[2025-12-12T07:34:07.352-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:07.352-0500] {override.py:1829} INFO - Created Permission View: can edit on DAG:bike_etl_dag
+[2025-12-12T07:34:07.352-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:07.352-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:34:07.355-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:07.355-0500] {dag.py:3118} INFO - Creating ORM DAG for bike_etl_dag
+[2025-12-12T07:34:07.357-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:07.357-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:34:07.362-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.085 seconds
+[2025-12-12T07:34:49.723-0500] {processor.py:161} INFO - Started process (PID=58529) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:34:49.724-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:34:49.725-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:49.725-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:34:49.727-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:34:49.754-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:49.754-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:34:49.759-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:34:49.759-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:34:49.765-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T07:35:30.908-0500] {processor.py:161} INFO - Started process (PID=58566) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:35:30.908-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:35:30.909-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:35:30.909-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:35:30.911-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:35:30.939-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:35:30.939-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:35:30.944-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:35:30.944-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:35:30.950-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:36:12.619-0500] {processor.py:161} INFO - Started process (PID=58602) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:36:12.620-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:36:12.620-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:36:12.620-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:36:12.623-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:36:12.651-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:36:12.651-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:36:12.657-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:36:12.657-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:36:12.662-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T07:36:54.737-0500] {processor.py:161} INFO - Started process (PID=58636) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:36:54.738-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:36:54.738-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:36:54.738-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:36:54.741-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:36:54.769-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:36:54.769-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:36:54.775-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:36:54.774-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:36:54.780-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T07:37:36.948-0500] {processor.py:161} INFO - Started process (PID=58671) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:37:36.949-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:37:36.949-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:37:36.949-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:37:36.952-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:37:36.979-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:37:36.979-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:37:36.985-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:37:36.985-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:37:36.992-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T07:38:19.888-0500] {processor.py:161} INFO - Started process (PID=58715) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:38:19.889-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:38:19.889-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:38:19.889-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:38:19.892-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:38:19.919-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:38:19.919-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:38:19.924-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:38:19.924-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:38:19.929-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T07:39:02.313-0500] {processor.py:161} INFO - Started process (PID=58780) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:39:02.314-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:39:02.314-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:39:02.314-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:39:02.317-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:39:02.344-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:39:02.344-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:39:02.351-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:39:02.351-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:39:02.357-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T07:39:44.946-0500] {processor.py:161} INFO - Started process (PID=58828) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:39:44.946-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:39:44.947-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:39:44.946-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:39:44.949-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:39:44.978-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:39:44.978-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:39:44.984-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:39:44.984-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:39:44.990-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T07:40:27.156-0500] {processor.py:161} INFO - Started process (PID=58896) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:40:27.157-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:40:27.157-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:40:27.157-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:40:27.160-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:40:27.188-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:40:27.188-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:40:27.193-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:40:27.193-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:40:27.199-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T07:41:10.547-0500] {processor.py:161} INFO - Started process (PID=58935) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:41:10.547-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:41:10.548-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:41:10.548-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:41:10.550-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:41:10.578-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:41:10.577-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:41:10.583-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:41:10.582-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:41:10.588-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T07:41:52.643-0500] {processor.py:161} INFO - Started process (PID=58968) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:41:52.643-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:41:52.643-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:41:52.643-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:41:52.646-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:41:52.673-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:41:52.673-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:41:52.678-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:41:52.678-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:41:52.684-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T07:42:35.016-0500] {processor.py:161} INFO - Started process (PID=59079) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:42:35.017-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:42:35.017-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:42:35.017-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:42:35.020-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:42:35.048-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:42:35.048-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:42:35.054-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:42:35.053-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:42:35.059-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T07:43:16.076-0500] {processor.py:161} INFO - Started process (PID=59130) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:43:16.076-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:43:16.077-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:43:16.077-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:43:16.079-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:43:16.106-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:43:16.106-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:43:16.112-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:43:16.111-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:43:16.117-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T07:43:58.331-0500] {processor.py:161} INFO - Started process (PID=59178) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:43:58.332-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:43:58.332-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:43:58.332-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:43:58.335-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:43:58.364-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:43:58.364-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:43:58.370-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:43:58.370-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:43:58.376-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.046 seconds
+[2025-12-12T07:44:41.340-0500] {processor.py:161} INFO - Started process (PID=59216) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:44:41.340-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:44:41.341-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:44:41.341-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:44:41.344-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:44:41.372-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:44:41.371-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:44:41.377-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:44:41.377-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:15:00+00:00, run_after=2025-12-12 12:30:00+00:00
+[2025-12-12T07:44:41.382-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:45:24.452-0500] {processor.py:161} INFO - Started process (PID=59260) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:45:24.452-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:45:24.453-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:45:24.453-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:45:24.455-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:45:24.484-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:45:24.484-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:45:24.490-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:45:24.490-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:45:24.496-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T07:46:07.813-0500] {processor.py:161} INFO - Started process (PID=59297) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:46:07.814-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:46:07.815-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:46:07.815-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:46:07.817-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:46:07.844-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:46:07.844-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:46:07.850-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:46:07.850-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:46:07.856-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:46:50.085-0500] {processor.py:161} INFO - Started process (PID=59339) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:46:50.085-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:46:50.085-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:46:50.085-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:46:50.088-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:46:50.115-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:46:50.115-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:46:50.121-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:46:50.120-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:46:50.126-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:47:31.554-0500] {processor.py:161} INFO - Started process (PID=59380) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:47:31.554-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:47:31.555-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:47:31.555-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:47:31.557-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:47:31.584-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:47:31.584-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:47:31.590-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:47:31.590-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:47:31.595-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T07:48:13.558-0500] {processor.py:161} INFO - Started process (PID=59436) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:48:13.558-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:48:13.558-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:48:13.558-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:48:13.561-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:48:13.590-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:48:13.590-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:48:13.596-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:48:13.596-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:48:13.602-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T07:48:58.686-0500] {processor.py:161} INFO - Started process (PID=59491) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:48:58.686-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:48:58.686-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:48:58.686-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:48:58.689-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:48:58.717-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:48:58.717-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:48:58.722-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:48:58.722-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:48:58.728-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:49:40.860-0500] {processor.py:161} INFO - Started process (PID=59527) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:49:40.860-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:49:40.860-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:49:40.860-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:49:40.863-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:49:40.891-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:49:40.891-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:49:40.896-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:49:40.896-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:49:40.903-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T07:50:24.236-0500] {processor.py:161} INFO - Started process (PID=59567) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:50:24.237-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:50:24.237-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:50:24.237-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:50:24.240-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:50:24.268-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:50:24.268-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:50:24.274-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:50:24.274-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:50:24.279-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T07:51:06.174-0500] {processor.py:161} INFO - Started process (PID=59601) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:51:06.174-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:51:06.175-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:51:06.175-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:51:06.177-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:51:06.206-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:51:06.206-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:51:06.211-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:51:06.211-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:51:06.217-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:51:49.478-0500] {processor.py:161} INFO - Started process (PID=59634) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:51:49.479-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:51:49.479-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:51:49.479-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:51:49.482-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:51:49.509-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:51:49.509-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:51:49.514-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:51:49.514-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:51:49.520-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:52:31.168-0500] {processor.py:161} INFO - Started process (PID=59670) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:52:31.168-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:52:31.168-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:52:31.168-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:52:31.171-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:52:31.199-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:52:31.199-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:52:31.204-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:52:31.204-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:52:31.210-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:53:11.934-0500] {processor.py:161} INFO - Started process (PID=59713) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:53:11.935-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:53:11.935-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:53:11.935-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:53:11.938-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:53:11.965-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:53:11.965-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:53:11.971-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:53:11.971-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:53:11.977-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T07:53:53.033-0500] {processor.py:161} INFO - Started process (PID=59756) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:53:53.034-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:53:53.034-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:53:53.034-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:53:53.037-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:53:53.064-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:53:53.064-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:53:53.069-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:53:53.069-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:53:53.075-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:54:34.550-0500] {processor.py:161} INFO - Started process (PID=59789) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:54:34.551-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:54:34.551-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:54:34.551-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:54:34.554-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:54:34.581-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:54:34.581-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:54:34.588-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:54:34.588-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:54:34.606-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.056 seconds
+[2025-12-12T07:55:17.101-0500] {processor.py:161} INFO - Started process (PID=59835) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:55:17.102-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:55:17.102-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:55:17.102-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:55:17.105-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:55:17.132-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:55:17.131-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:55:17.137-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:55:17.137-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:55:17.142-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T07:56:00.493-0500] {processor.py:161} INFO - Started process (PID=59875) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:56:00.494-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:56:00.494-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:56:00.494-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:56:00.497-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:56:00.525-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:56:00.524-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:56:00.530-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:56:00.530-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:56:00.535-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T07:56:42.282-0500] {processor.py:161} INFO - Started process (PID=59908) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:56:42.284-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:56:42.285-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:56:42.285-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:56:42.291-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:56:42.322-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:56:42.322-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:56:42.327-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:56:42.327-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:56:42.334-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.052 seconds
+[2025-12-12T07:57:24.699-0500] {processor.py:161} INFO - Started process (PID=59952) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:57:24.700-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:57:24.700-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:57:24.700-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:57:24.703-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:57:24.735-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:57:24.735-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:57:24.740-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:57:24.740-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:57:24.747-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.048 seconds
+[2025-12-12T07:58:07.934-0500] {processor.py:161} INFO - Started process (PID=61168) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:58:07.935-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:58:07.936-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:58:07.936-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:58:07.938-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:58:07.967-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:58:07.967-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:58:07.973-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:58:07.973-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:58:07.979-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T07:58:50.141-0500] {processor.py:161} INFO - Started process (PID=62550) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:58:50.142-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:58:50.143-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:58:50.143-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:58:50.148-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:58:50.185-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:58:50.185-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:58:50.190-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:58:50.190-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:58:50.196-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.056 seconds
+[2025-12-12T07:59:34.304-0500] {processor.py:161} INFO - Started process (PID=62695) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:59:34.305-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T07:59:34.305-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:59:34.305-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:59:34.308-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T07:59:34.336-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:59:34.336-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T07:59:34.341-0500] {logging_mixin.py:188} INFO - [2025-12-12T07:59:34.341-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:30:00+00:00, run_after=2025-12-12 12:45:00+00:00
+[2025-12-12T07:59:34.347-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:00:15.536-0500] {processor.py:161} INFO - Started process (PID=62752) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:00:15.537-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:00:15.537-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:00:15.537-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:00:15.539-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:00:15.567-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:00:15.567-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:00:15.572-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:00:15.572-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:00:15.577-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:00:55.672-0500] {processor.py:161} INFO - Started process (PID=62787) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:00:55.672-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:00:55.673-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:00:55.673-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:00:55.676-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:00:55.706-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:00:55.706-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:00:55.711-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:00:55.711-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:00:55.716-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T08:01:36.154-0500] {processor.py:161} INFO - Started process (PID=62820) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:01:36.155-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:01:36.156-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:01:36.156-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:01:36.158-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:01:36.186-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:01:36.186-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:01:36.191-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:01:36.191-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:01:36.196-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:02:19.110-0500] {processor.py:161} INFO - Started process (PID=62853) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:02:19.110-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:02:19.111-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:02:19.111-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:02:19.113-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:02:19.141-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:02:19.140-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:02:19.146-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:02:19.145-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:02:19.151-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T08:03:02.862-0500] {processor.py:161} INFO - Started process (PID=62887) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:03:02.863-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:03:02.863-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:03:02.863-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:03:02.866-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:03:02.893-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:03:02.893-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:03:02.898-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:03:02.898-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:03:02.903-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:03:45.138-0500] {processor.py:161} INFO - Started process (PID=62922) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:03:45.140-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:03:45.140-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:03:45.140-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:03:45.143-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:03:45.169-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:03:45.169-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:03:45.174-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:03:45.174-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:03:45.180-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:04:28.220-0500] {processor.py:161} INFO - Started process (PID=62988) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:04:28.221-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:04:28.221-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:04:28.221-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:04:28.224-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:04:28.251-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:04:28.251-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:04:28.256-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:04:28.256-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:04:28.262-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:05:08.766-0500] {processor.py:161} INFO - Started process (PID=63074) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:05:08.767-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:05:08.767-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:05:08.767-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:05:08.770-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:05:08.800-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:05:08.800-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:05:08.806-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:05:08.806-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:05:08.813-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.048 seconds
+[2025-12-12T08:05:51.567-0500] {processor.py:161} INFO - Started process (PID=63108) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:05:51.568-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:05:51.569-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:05:51.569-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:05:51.571-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:05:51.600-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:05:51.600-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:05:51.606-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:05:51.606-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:05:51.612-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T08:06:33.545-0500] {processor.py:161} INFO - Started process (PID=63154) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:06:33.546-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:06:33.546-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:06:33.546-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:06:33.549-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:06:33.583-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:06:33.583-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:06:33.589-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:06:33.589-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:06:33.596-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.052 seconds
+[2025-12-12T08:07:18.775-0500] {processor.py:161} INFO - Started process (PID=63636) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:07:18.776-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:07:18.776-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:07:18.776-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:07:18.779-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:07:18.807-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:07:18.807-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:07:18.813-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:07:18.813-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:07:18.818-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:08:03.943-0500] {processor.py:161} INFO - Started process (PID=63673) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:08:03.944-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:08:03.944-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:08:03.944-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:08:03.947-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:08:03.974-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:08:03.974-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:08:03.979-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:08:03.979-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:08:03.985-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:08:47.199-0500] {processor.py:161} INFO - Started process (PID=63705) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:08:47.200-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:08:47.200-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:08:47.200-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:08:47.203-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:08:47.230-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:08:47.230-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:08:47.235-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:08:47.235-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:08:47.241-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:09:29.402-0500] {processor.py:161} INFO - Started process (PID=63740) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:09:29.403-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:09:29.403-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:09:29.403-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:09:29.406-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:09:29.439-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:09:29.439-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:09:29.445-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:09:29.445-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:09:29.452-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.051 seconds
+[2025-12-12T08:10:12.536-0500] {processor.py:161} INFO - Started process (PID=63776) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:10:12.537-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:10:12.537-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:10:12.537-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:10:12.539-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:10:12.574-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:10:12.574-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:10:12.581-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:10:12.581-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:10:12.590-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.055 seconds
+[2025-12-12T08:10:56.172-0500] {processor.py:161} INFO - Started process (PID=63811) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:10:56.173-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:10:56.173-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:10:56.173-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:10:56.176-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:10:56.209-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:10:56.209-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:10:56.216-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:10:56.216-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:10:56.224-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.052 seconds
+[2025-12-12T08:11:40.381-0500] {processor.py:161} INFO - Started process (PID=63843) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:11:40.381-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:11:40.382-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:11:40.382-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:11:40.385-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:11:40.415-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:11:40.414-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:11:40.420-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:11:40.420-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:11:40.426-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.046 seconds
+[2025-12-12T08:12:22.771-0500] {processor.py:161} INFO - Started process (PID=63877) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:12:22.772-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:12:22.772-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:12:22.772-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:12:22.776-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:12:22.808-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:12:22.808-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:12:22.814-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:12:22.814-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:12:22.819-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.049 seconds
+[2025-12-12T08:13:05.550-0500] {processor.py:161} INFO - Started process (PID=63911) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:13:05.551-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:13:05.551-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:13:05.551-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:13:05.554-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:13:05.582-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:13:05.582-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:13:05.588-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:13:05.588-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:13:05.593-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T08:13:46.065-0500] {processor.py:161} INFO - Started process (PID=63943) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:13:46.066-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:13:46.067-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:13:46.066-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:13:46.069-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:13:46.099-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:13:46.098-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:13:46.104-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:13:46.104-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:13:46.110-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.046 seconds
+[2025-12-12T08:14:27.947-0500] {processor.py:161} INFO - Started process (PID=63977) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:14:27.947-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:14:27.947-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:14:27.947-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:14:27.950-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:14:27.979-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:14:27.979-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:14:27.984-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:14:27.984-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 12:45:00+00:00, run_after=2025-12-12 13:00:00+00:00
+[2025-12-12T08:14:27.990-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:15:09.659-0500] {processor.py:161} INFO - Started process (PID=64015) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:15:09.660-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:15:09.660-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:15:09.660-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:15:09.663-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:15:09.693-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:15:09.693-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:15:09.699-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:15:09.699-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:15:09.705-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.047 seconds
+[2025-12-12T08:15:49.633-0500] {processor.py:161} INFO - Started process (PID=64051) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:15:49.634-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:15:49.634-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:15:49.634-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:15:49.638-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:15:49.670-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:15:49.669-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:15:49.675-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:15:49.675-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:15:49.681-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.048 seconds
+[2025-12-12T08:16:31.475-0500] {processor.py:161} INFO - Started process (PID=64085) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:16:31.476-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:16:31.476-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:16:31.476-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:16:31.479-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:16:31.506-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:16:31.506-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:16:31.512-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:16:31.511-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:16:31.517-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:17:14.103-0500] {processor.py:161} INFO - Started process (PID=64118) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:17:14.104-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:17:14.104-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:17:14.104-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:17:14.107-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:17:14.134-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:17:14.134-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:17:14.139-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:17:14.139-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:17:14.145-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:17:57.825-0500] {processor.py:161} INFO - Started process (PID=64154) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:17:57.826-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:17:57.826-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:17:57.826-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:17:57.829-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:17:57.857-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:17:57.857-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:17:57.862-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:17:57.862-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:17:57.868-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:18:38.878-0500] {processor.py:161} INFO - Started process (PID=64187) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:18:38.878-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:18:38.878-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:18:38.878-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:18:38.882-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:18:38.909-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:18:38.909-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:18:38.914-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:18:38.914-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:18:38.920-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:19:19.344-0500] {processor.py:161} INFO - Started process (PID=64220) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:19:19.345-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:19:19.345-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:19:19.345-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:19:19.348-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:19:19.375-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:19:19.375-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:19:19.380-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:19:19.380-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:19:19.386-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:20:02.615-0500] {processor.py:161} INFO - Started process (PID=64254) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:20:02.617-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:20:02.617-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:20:02.617-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:20:02.619-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:20:02.648-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:20:02.648-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:20:02.653-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:20:02.653-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:20:02.659-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:20:44.623-0500] {processor.py:161} INFO - Started process (PID=64288) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:20:44.624-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:20:44.625-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:20:44.624-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:20:44.627-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:20:44.656-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:20:44.656-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:20:44.662-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:20:44.662-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:20:44.668-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.046 seconds
+[2025-12-12T08:21:26.701-0500] {processor.py:161} INFO - Started process (PID=64321) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:21:26.702-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:21:26.702-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:21:26.702-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:21:26.705-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:21:26.732-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:21:26.731-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:21:26.737-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:21:26.737-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:21:26.742-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T08:22:07.831-0500] {processor.py:161} INFO - Started process (PID=64355) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:22:07.832-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:22:07.832-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:22:07.832-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:22:07.835-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:22:07.863-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:22:07.863-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:22:07.868-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:22:07.868-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:22:07.873-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:22:50.817-0500] {processor.py:161} INFO - Started process (PID=64388) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:22:50.818-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:22:50.818-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:22:50.818-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:22:50.821-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:22:50.850-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:22:50.850-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:22:50.855-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:22:50.855-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:22:50.861-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.045 seconds
+[2025-12-12T08:23:34.826-0500] {processor.py:161} INFO - Started process (PID=64430) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:23:34.827-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:23:34.827-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:23:34.827-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:23:34.830-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:23:34.857-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:23:34.857-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:23:34.862-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:23:34.862-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:23:34.868-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:24:15.328-0500] {processor.py:161} INFO - Started process (PID=64462) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:24:15.329-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:24:15.329-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:24:15.329-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:24:15.332-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:24:15.360-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:24:15.360-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:24:15.365-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:24:15.365-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:24:15.371-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:24:56.135-0500] {processor.py:161} INFO - Started process (PID=64496) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:24:56.135-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:24:56.136-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:24:56.136-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:24:56.139-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:24:56.168-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:24:56.168-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:24:56.174-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:24:56.174-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:24:56.181-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.047 seconds
+[2025-12-12T08:25:37.562-0500] {processor.py:161} INFO - Started process (PID=64530) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:25:37.563-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:25:37.563-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:25:37.563-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:25:37.566-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:25:37.594-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:25:37.593-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:25:37.599-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:25:37.599-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:25:37.604-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:26:21.687-0500] {processor.py:161} INFO - Started process (PID=64563) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:26:21.688-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:26:21.688-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:26:21.688-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:26:21.691-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:26:21.718-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:26:21.718-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:26:21.723-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:26:21.723-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:26:21.728-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:27:04.056-0500] {processor.py:161} INFO - Started process (PID=64608) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:27:04.057-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:27:04.057-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:27:04.057-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:27:04.060-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:27:04.088-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:27:04.088-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:27:04.093-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:27:04.093-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:00:00+00:00, run_after=2025-12-12 13:15:00+00:00
+[2025-12-12T08:27:04.099-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:27:47.083-0500] {processor.py:161} INFO - Started process (PID=64665) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:27:47.084-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:27:47.084-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:27:47.084-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:27:47.087-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:27:47.114-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:27:47.114-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:27:47.120-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:27:47.120-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:15:00+00:00, run_after=2025-12-12 13:30:00+00:00
+[2025-12-12T08:27:47.125-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:28:30.213-0500] {processor.py:161} INFO - Started process (PID=64709) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:28:30.213-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:28:30.213-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:28:30.213-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:28:30.216-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:28:30.243-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:28:30.243-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:28:30.249-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:28:30.248-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:15:00+00:00, run_after=2025-12-12 13:30:00+00:00
+[2025-12-12T08:28:30.254-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T08:29:11.929-0500] {processor.py:161} INFO - Started process (PID=64745) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:29:11.930-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:29:11.930-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:29:11.930-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:29:11.933-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:29:11.960-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:29:11.960-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:29:11.965-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:29:11.965-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:15:00+00:00, run_after=2025-12-12 13:30:00+00:00
+[2025-12-12T08:29:11.970-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:29:51.755-0500] {processor.py:161} INFO - Started process (PID=64782) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:29:51.756-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:29:51.756-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:29:51.756-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:29:51.759-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:29:51.787-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:29:51.787-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:29:51.792-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:29:51.792-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:15:00+00:00, run_after=2025-12-12 13:30:00+00:00
+[2025-12-12T08:29:51.797-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:30:32.586-0500] {processor.py:161} INFO - Started process (PID=64825) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:30:32.587-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:30:32.587-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:30:32.587-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:30:32.590-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:30:32.618-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:30:32.618-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:30:32.623-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:30:32.623-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:30:32.629-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:31:13.418-0500] {processor.py:161} INFO - Started process (PID=64866) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:31:13.419-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:31:13.420-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:31:13.419-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:31:13.423-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:31:13.473-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:31:13.473-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:31:13.478-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:31:13.478-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:31:13.484-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.067 seconds
+[2025-12-12T08:31:54.539-0500] {processor.py:161} INFO - Started process (PID=64906) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:31:54.540-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:31:54.540-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:31:54.540-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:31:54.543-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:31:54.570-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:31:54.570-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:31:54.575-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:31:54.575-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:31:54.581-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:32:37.658-0500] {processor.py:161} INFO - Started process (PID=64960) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:32:37.660-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:32:37.660-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:32:37.660-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:32:37.663-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:32:37.690-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:32:37.690-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:32:37.695-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:32:37.695-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:32:37.701-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:33:19.416-0500] {processor.py:161} INFO - Started process (PID=65005) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:33:19.417-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:33:19.418-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:33:19.418-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:33:19.420-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:33:19.447-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:33:19.447-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:33:19.452-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:33:19.452-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:33:19.458-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:34:02.661-0500] {processor.py:161} INFO - Started process (PID=65053) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:34:02.662-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:34:02.662-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:34:02.662-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:34:02.665-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:34:02.692-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:34:02.692-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:34:02.697-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:34:02.697-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:34:02.703-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:34:46.476-0500] {processor.py:161} INFO - Started process (PID=65102) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:34:46.476-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:34:46.477-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:34:46.477-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:34:46.479-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:34:46.507-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:34:46.507-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:34:46.513-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:34:46.512-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:34:46.518-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:35:29.539-0500] {processor.py:161} INFO - Started process (PID=65146) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:35:29.539-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:35:29.539-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:35:29.539-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:35:29.542-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:35:29.569-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:35:29.569-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:35:29.575-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:35:29.575-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:35:29.580-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T08:36:11.005-0500] {processor.py:161} INFO - Started process (PID=65191) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:36:11.006-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:36:11.006-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:36:11.006-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:36:11.009-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:36:11.036-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:36:11.036-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:36:11.041-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:36:11.041-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:36:11.047-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:36:52.378-0500] {processor.py:161} INFO - Started process (PID=65223) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:36:52.379-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:36:52.379-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:36:52.379-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:36:52.382-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:36:52.409-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:36:52.409-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:36:52.414-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:36:52.414-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:36:52.420-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:37:33.700-0500] {processor.py:161} INFO - Started process (PID=65259) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:37:33.701-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:37:33.701-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:37:33.701-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:37:33.704-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:37:33.731-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:37:33.731-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:37:33.737-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:37:33.737-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:37:33.743-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:38:17.913-0500] {processor.py:161} INFO - Started process (PID=65293) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:38:17.915-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:38:17.915-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:38:17.915-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:38:17.919-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:38:17.975-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:38:17.975-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:38:17.986-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:38:17.986-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:38:17.993-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.082 seconds
+[2025-12-12T08:38:59.095-0500] {processor.py:161} INFO - Started process (PID=65337) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:38:59.096-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:38:59.096-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:38:59.096-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:38:59.099-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:38:59.126-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:38:59.126-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:38:59.131-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:38:59.131-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:38:59.137-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:39:39.490-0500] {processor.py:161} INFO - Started process (PID=65373) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:39:39.491-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:39:39.491-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:39:39.491-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:39:39.494-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:39:39.522-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:39:39.521-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:39:39.527-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:39:39.527-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:39:39.533-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:40:22.085-0500] {processor.py:161} INFO - Started process (PID=65418) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:40:22.086-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:40:22.086-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:40:22.086-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:40:22.089-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:40:22.116-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:40:22.116-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:40:22.121-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:40:22.121-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:40:22.127-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:41:04.089-0500] {processor.py:161} INFO - Started process (PID=65458) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:41:04.090-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:41:04.090-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:41:04.090-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:41:04.093-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:41:04.121-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:41:04.121-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:41:04.127-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:41:04.127-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:41:04.133-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:41:45.939-0500] {processor.py:161} INFO - Started process (PID=65493) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:41:45.940-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:41:45.940-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:41:45.940-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:41:45.942-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:41:45.969-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:41:45.969-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:41:45.975-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:41:45.975-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:41:45.980-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:42:26.485-0500] {processor.py:161} INFO - Started process (PID=65526) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:42:26.486-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:42:26.487-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:42:26.487-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:42:26.489-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:42:26.518-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:42:26.518-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:42:26.523-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:42:26.523-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:42:26.529-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.044 seconds
+[2025-12-12T08:43:08.376-0500] {processor.py:161} INFO - Started process (PID=65573) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:43:08.377-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:43:08.377-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:43:08.377-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:43:08.380-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:43:08.407-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:43:08.407-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:43:08.412-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:43:08.412-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:43:08.418-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:43:50.015-0500] {processor.py:161} INFO - Started process (PID=65610) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:43:50.016-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:43:50.016-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:43:50.016-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:43:50.019-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:43:50.046-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:43:50.046-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:43:50.052-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:43:50.052-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:43:50.057-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.043 seconds
+[2025-12-12T08:44:32.235-0500] {processor.py:161} INFO - Started process (PID=65643) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:44:32.236-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:44:32.236-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:44:32.236-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:44:32.239-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:44:32.265-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:44:32.265-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:44:32.270-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:44:32.270-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:30:00+00:00, run_after=2025-12-12 13:45:00+00:00
+[2025-12-12T08:44:32.276-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T08:45:14.283-0500] {processor.py:161} INFO - Started process (PID=65689) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:45:14.284-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:45:14.284-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:45:14.284-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:45:14.287-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:45:14.313-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:45:14.313-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:45:14.318-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:45:14.318-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:45:00+00:00, run_after=2025-12-12 14:00:00+00:00
+[2025-12-12T08:45:14.324-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.042 seconds
+[2025-12-12T08:45:57.279-0500] {processor.py:161} INFO - Started process (PID=65723) to work on /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:45:57.279-0500] {processor.py:830} INFO - Processing file /Users/evankrupa/airflow_project/dags/bike_etl_dag.py for tasks to queue
+[2025-12-12T08:45:57.279-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:45:57.279-0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:45:57.282-0500] {processor.py:840} INFO - DAG(s) 'bike_etl_dag' retrieved from /Users/evankrupa/airflow_project/dags/bike_etl_dag.py
+[2025-12-12T08:45:57.308-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:45:57.308-0500] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-12-12T08:45:57.313-0500] {logging_mixin.py:188} INFO - [2025-12-12T08:45:57.313-0500] {dag.py:3954} INFO - Setting next_dagrun for bike_etl_dag to 2025-12-12 13:45:00+00:00, run_after=2025-12-12 14:00:00+00:00
+[2025-12-12T08:45:57.319-0500] {processor.py:183} INFO - Processing /Users/evankrupa/airflow_project/dags/bike_etl_dag.py took 0.041 seconds

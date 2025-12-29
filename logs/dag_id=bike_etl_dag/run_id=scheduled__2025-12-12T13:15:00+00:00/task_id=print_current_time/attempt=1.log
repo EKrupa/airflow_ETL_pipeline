@@ -1,0 +1,37 @@
+[2025-12-12T08:30:03.053-0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-12T08:30:03.058-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bike_etl_dag.print_current_time scheduled__2025-12-12T13:15:00+00:00 [queued]>
+[2025-12-12T08:30:03.059-0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bike_etl_dag.print_current_time scheduled__2025-12-12T13:15:00+00:00 [queued]>
+[2025-12-12T08:30:03.059-0500] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-12-12T08:30:03.062-0500] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): print_current_time> on 2025-12-12 13:15:00+00:00
+[2025-12-12T08:30:03.064-0500] {standard_task_runner.py:63} INFO - Started process 64792 to run task
+[2025-12-12T08:30:03.067-0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'bike_etl_dag', 'print_current_time', 'scheduled__2025-12-12T13:15:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/bike_etl_dag.py', '--cfg-path', '/var/folders/x8/gzvp79n54f19ddgbkqmljtcc0000gn/T/tmpror9xzvl']
+[2025-12-12T08:30:03.068-0500] {standard_task_runner.py:91} INFO - Job 3: Subtask print_current_time
+[2025-12-12T08:30:03.083-0500] {task_command.py:426} INFO - Running <TaskInstance: bike_etl_dag.print_current_time scheduled__2025-12-12T13:15:00+00:00 [running]> on host evans-macbook-pro.local
+[2025-12-12T08:30:03.100-0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='bike_etl_dag' AIRFLOW_CTX_TASK_ID='print_current_time' AIRFLOW_CTX_EXECUTION_DATE='2025-12-12T13:15:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-12T13:15:00+00:00'
+[2025-12-12T08:30:03.101-0500] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-12T08:30:03.101-0500] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/x8/gzvp79n54f19ddgbkqmljtcc0000gn/T
+[2025-12-12T08:30:03.101-0500] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "Hello Evan)']
+[2025-12-12T08:30:03.104-0500] {subprocess.py:86} INFO - Output:
+[2025-12-12T08:30:03.108-0500] {subprocess.py:93} INFO - /bin/bash: -c: line 0: unexpected EOF while looking for matching `"'
+[2025-12-12T08:30:03.108-0500] {subprocess.py:93} INFO - /bin/bash: -c: line 1: syntax error: unexpected end of file
+[2025-12-12T08:30:03.108-0500] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-12-12T08:30:03.108-0500] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-12-12T08:30:03.110-0500] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/evankrupa/airflow_project/env/lib/python3.11/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-12-12T08:30:03.112-0500] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=bike_etl_dag, task_id=print_current_time, run_id=scheduled__2025-12-12T13:15:00+00:00, execution_date=20251212T131500, start_date=20251212T133003, end_date=20251212T133003
+[2025-12-12T08:30:03.115-0500] {standard_task_runner.py:110} ERROR - Failed to execute job 3 for task print_current_time (Bash command failed. The command returned a non-zero exit code 2.; 64792)
+[2025-12-12T08:30:03.129-0500] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-12-12T08:30:03.134-0500] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-12T08:30:03.136-0500] {local_task_job_runner.py:222} INFO - ::endgroup::
