@@ -31,10 +31,18 @@ with DAG(
 
     )
 
-    upload_task = PythonOperator(
-        task_id='upload_to_s3',
-        python_callable=upload_to_s3
+    def run_bike_etl():
+        from etl.transform import transform_top_stations_all_networks
+        from etl.load import upload_to_s3
 
+        df = transform_top_stations_all_networks(top_n=5)
+        bucket_name = 'bikeshareairflow'
+        upload_to_s3(df, bucket_name=bucket_name)
+
+
+    
+
+    run_etl_task = PythonOperator(
+        task_id='run_bike_etl',
+        python_callable=run_bike_etl
     )
-
-    task_one >> task_two >> upload_task
