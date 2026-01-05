@@ -1,4 +1,4 @@
-#!/Users/evankrupa/airflow_project/env/bin/python3
+#!/Users/evankrupa/airflow_project/env/bin/python3.11
 import sys
 from jsonpath_ng.bin.jsonpath import entry_point
 if __name__ == '__main__':

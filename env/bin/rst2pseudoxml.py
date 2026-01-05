@@ -1,4 +1,4 @@
-#!/Users/evankrupa/airflow_project/env/bin/python3
+#!/Users/evankrupa/airflow_project/env/bin/python3.11
 
 # $Id: rst2pseudoxml.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>

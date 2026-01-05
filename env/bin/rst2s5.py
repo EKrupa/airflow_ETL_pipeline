@@ -1,4 +1,4 @@
-#!/Users/evankrupa/airflow_project/env/bin/python3
+#!/Users/evankrupa/airflow_project/env/bin/python3.11
 
 # $Id: rst2s5.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: Chris Liechti <cliechti@gmx.net>

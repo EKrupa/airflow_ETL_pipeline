@@ -1,4 +1,4 @@
-#!/Users/evankrupa/airflow_project/env/bin/python3
+#!/Users/evankrupa/airflow_project/env/bin/python3.11
 
 # $Id: rst2odt_prepstyles.py 8346 2019-08-26 12:11:32Z milde $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

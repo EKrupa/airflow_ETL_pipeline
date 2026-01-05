@@ -1,4 +1,4 @@
-#!/Users/evankrupa/airflow_project/env/bin/python3
+#!/Users/evankrupa/airflow_project/env/bin/python3.11
 import sys
 from nvd3.NVD3Chart import _main
 if __name__ == '__main__':

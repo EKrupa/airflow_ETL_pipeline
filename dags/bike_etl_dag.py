@@ -1,10 +1,14 @@
-from airflow import DAG, task
-from airflow.providers.amazon.aws.hooks.s3 import S3Hook
+from airflow import DAG
 from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
+import pandas as pd
+from etl.load import upload_to_s3
 
 from datetime import datetime
 
-from scripts.load import dataframe_parquet
+
+
+
 
 with DAG(
     dag_id='bike_etl_dag',
@@ -13,10 +17,11 @@ with DAG(
     catchup=False, #set to False to avoid backfilling
     tags=['bike'],
 ) as dag:
+    
     task_one = BashOperator(
         task_id='print_current_time',
         bash_command='echo "Hello Evan"',
-        dag=dag,
+        
 
     )
 
@@ -25,4 +30,11 @@ with DAG(
         bash_command='echo "Current time is: $(date)"'
 
     )
-    task_one >> task_two
+
+    upload_task = PythonOperator(
+        task_id='upload_to_s3',
+        python_callable=upload_to_s3
+
+    )
+
+    task_one >> task_two >> upload_task
