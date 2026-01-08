@@ -1,15 +1,15 @@
 
-🚲 Airflow Bikeshare ETL Pipeline
+Airflow Bikeshare ETL Pipeline
 
 This project is an Apache Airflow–orchestrated ETL pipeline that ingests bikeshare data and determines the location with the most bikes currently available. It demonstrates production-style data engineering patterns using Python and Airflow.
 
-📌 Project Overview
+Project Overview
 
 The pipeline extracts live bikeshare network data from a public API, processes station-level availability, and identifies the station (or location) with the highest number of available bikes at runtime.
 
 The workflow is fully automated and scheduled using Apache Airflow, making it easy to monitor, retry, and extend.
 
-🛠️ Tech Stack
+Tech Stack
 
 Python – Data extraction, transformation, and business logic
 
@@ -21,7 +21,7 @@ Docker / EC2 (optional) – Deployment and execution environment
 
 AWS S3 (optional) – Storage for processed outputs
 
-🔄 Pipeline Flow
+Pipeline Flow
 
 Extract
 
@@ -43,7 +43,7 @@ Persist results (e.g., JSON or CSV)
 
 Optionally upload output to an S3 bucket
 
-🧩 DAG Structure
+DAG Structure
 airflow_bikeshare_pipeline/
 ├── dags/
 │   └── bikeshare_dag.py
@@ -54,15 +54,15 @@ airflow_bikeshare_pipeline/
 ├── requirements.txt
 └── README.md
 
-⏱️ Scheduling
+Scheduling
 
-The DAG runs on a configurable schedule (e.g. hourly or daily)
+The DAG runs on a configurable schedule (every 15 mins)
 
 Supports retries and failure handling via Airflow operators
 
 Can be triggered manually from the Airflow UI
 
-🚀 Getting Started
+Getting Started
 Prerequisites
 
 Python 3.9+
@@ -98,7 +98,7 @@ airflow scheduler
 Access the UI at:
 http://localhost:8080
 
-📊 Example Output
+Example Output
 {
   "station_name": "Market St & 7th St",
   "city": "San Francisco",
@@ -106,7 +106,7 @@ http://localhost:8080
   "timestamp": "2026-01-07T12:00:00Z"
 }
 
-💡 Future Improvements
+Future Improvements
 
 Add historical storage and trend analysis
 
@@ -118,7 +118,7 @@ Add data quality checks and alerting
 
 Visualize results with a dashboard
 
-📬 Why This Project?
+Why This Project?
 
 This pipeline demonstrates:
 
