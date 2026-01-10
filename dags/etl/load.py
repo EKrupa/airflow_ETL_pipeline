@@ -22,7 +22,7 @@ def upload_to_s3(df: pd.DataFrame, bucket_name:str, s3_key:str, aws_conn_id:str 
     
     hook.load_file_obj(
         file_obj=buffer,
-        key='bike_data/most_bikes_station.parquet',
+        key=s3_key,
         bucket_name='bikeshareairflow',
         replace=True
     )
@@ -31,4 +31,8 @@ def upload_to_s3(df: pd.DataFrame, bucket_name:str, s3_key:str, aws_conn_id:str 
 if __name__ == "__main__":
     top_stations_df = transform_top_stations_all_networks(top_n=5)
     bucket_name = 'bikeshareairflow'
-    upload_to_s3(top_stations_df, bucket_name)
+    upload_to_s3(
+        df=top_stations_df,
+        bucket_name=bucket_name,
+        s3_key='most_bikes_station.parquet'
+    )
